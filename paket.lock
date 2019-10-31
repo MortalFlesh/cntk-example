@@ -2,6 +2,11 @@ STORAGE: NONE
 RESTRICTION: == netcoreapp2.2
 NUGET
   remote: https://api.nuget.org/v3/index.json
+    CNTK.CPUOnly (2.7)
+      CNTK.Deps.MKL (2.7)
+      CNTK.Deps.OpenCV.Zip (2.7)
+    CNTK.Deps.MKL (2.7)
+    CNTK.Deps.OpenCV.Zip (2.7)
     Colorful.Console (1.2.9)
       Microsoft.CSharp (>= 4.0.1)
       System.Collections (>= 4.0.11)

@@ -4,6 +4,7 @@ storage: none
 source https://api.nuget.org/v3/index.json
 nuget FSharp.Core
 nuget MF.ConsoleApplication
+nuget CNTK.CPUOnly
 
 // [ FAKE GROUP ]
 group Build

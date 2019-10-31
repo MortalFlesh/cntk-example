@@ -15,6 +15,7 @@ let main argv =
             Initialize = None
             Interact = None
             Execute = fun (input, output) ->
+                output |> CNTKCommand.run
 
                 output.Success "Done"
                 ExitCode.Success
