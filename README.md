@@ -1,1 +1,2 @@
-# cntk-example
+CNTK Example
+============
